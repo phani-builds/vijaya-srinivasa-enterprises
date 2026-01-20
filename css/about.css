@@ -1,0 +1,421 @@
+/* ===================================
+   Page Hero Section
+   =================================== */
+.page-hero {
+    position: relative;
+    background: url('https://images.unsplash.com/photo-1599690925058-90e1a0b555e6?w=1920&q=80') center/cover no-repeat fixed;
+    padding: 180px 0 100px;
+    text-align: center;
+    color: var(--white);
+    margin-top: 0;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.85) 0%, rgba(144, 53, 61, 0.7) 100%);
+    z-index: 1;
+}
+
+.page-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Priority Location Badge (Pulsating) */
+.location-badge-wrapper {
+    margin-bottom: 1.5rem;
+}
+
+.location-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #fffff0;
+    color: #90353D; /* Maroon - trust & safety */
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 1rem;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    animation: pulse-badge 2s infinite;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.location-badge i {
+    font-size: 1.2rem;
+}
+
+@keyframes pulse-badge {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    color: var(--white);
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ===================================
+   About Section Layout
+   =================================== */
+.about-section {
+    padding: 6rem 0;
+    background: var(--bg-light);
+    overflow: hidden;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.section-tag {
+    display: inline-block;
+    background: rgba(144, 53, 61, 0.1);
+    color: var(--primary-color);
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.about-text-content h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.lead-text {
+    font-size: 1.15rem;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.about-text-content p {
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+/* Feature List */
+.feature-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.check-icon {
+    width: 28px;
+    height: 28px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+}
+
+.feature-item span {
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.mt-4 { margin-top: 1.5rem !important; }
+
+/* Image Wrapper */
+.about-image-wrapper {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.image-box {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    position: relative;
+    z-index: 1;
+    aspect-ratio: 1 / 1;
+}
+
+.image-box::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid var(--primary-color);
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.image-box:hover img {
+    transform: scale(1.05);
+}
+
+/* Experience Floating Badge */
+.experience-badge {
+    position: absolute;
+    bottom: 50px;
+    right: -30px;
+    background: linear-gradient(135deg, #90353D 0%, #6b2830 100%);
+    color: white;
+    padding: 25px 35px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(144, 53, 61, 0.4);
+    z-index: 2;
+    border: 4px solid var(--white);
+}
+
+.exp-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.exp-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+/* ===================================
+   Bento Grid (Why Choose Us)
+   =================================== */
+.bg-light { background-color: var(--bg-light); }
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.bento-card {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    border: 1px solid rgba(0,0,0,0.03);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bento-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.card-large {
+    grid-column: span 2;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: var(--white);
+}
+
+.card-dark {
+    background: #1f2937;
+    color: var(--white);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.card-large .card-icon,
+.card-dark .card-icon {
+    color: var(--white);
+    opacity: 0.9;
+}
+
+.bento-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.bento-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-light);
+}
+
+.card-large p, .card-dark p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* ===================================
+   Stats Section
+   =================================== */
+.stats-section {
+    background: var(--bg-light);
+    padding: 4rem 0;
+    border-top: 1px solid rgba(144, 53, 61, 0.1);
+}
+
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    text-align: center;
+}
+
+.stat-item {
+    padding: 1rem;
+}
+
+.stat-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem;
+    background: rgba(144, 53, 61, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.stat-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ===================================
+   Responsive Design
+   =================================== */
+@media (max-width: 1024px) {
+    .bento-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-large {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 991px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .about-image-wrapper {
+        order: -1;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-hero {
+        padding: 140px 0 60px;
+    }
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    .location-badge {
+        font-size: 0.85rem;
+        padding: 8px 15px;
+    }
+    .experience-badge {
+        right: 0;
+        bottom: -20px;
+        padding: 15px 20px;
+    }
+    .exp-number {
+        font-size: 2rem;
+    }
+    .bento-grid {
+        grid-template-columns: 1fr;
+    }
+    .card-large {
+        grid-column: auto;
+    }
+    .hero-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .feature-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-stats {
+        grid-template-columns: 1fr;
+    }
+}

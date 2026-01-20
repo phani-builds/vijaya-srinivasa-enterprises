@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Search Products - Vijaya Srinivasa Enterprises</title>
+    <meta name="description" content="Search our wide range of safety nets, anti-bird nets, and invisible grills.">
+    <meta name="robots" content="noindex,follow">
+
+    <!-- Icon -->
+    <link rel="icon" type="image/png" href="logo/vse-logo.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css"> </head>
+<body>
+
+<div class="preloader">
+    <div class="loader-animation">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+</div>
+
+<header class="header" id="header">
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo/vse-logo.png" alt="Vijaya Srinivasa Enterprises Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Vijaya Srinivasa Enterprises</h1>
+                    <p class="location">
+                        <i class="fas fa-phone"></i> +91 7995717177
+                    </p>
+                </div>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-dropdown">
+                        <a href="#" class="nav-link">Our Products <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="safety-net.html">Safety Net</a></li>
+                            <li><a href="anti-bird-net.html">Anti Bird Net</a></li>
+                            <li><a href="invisible-grill.html">Invisible Grill</a></li>
+                            <li><a href="sports-net.html">Sports Net</a></li>
+                            <li><a href="wire-mesh.html">Wire Mesh</a></li>
+                            <li><a href="artificial-grass-mat.html">Artificial Grass Mat</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <a href="tel:7995717177" class="btn-call">
+                    <i class="fas fa-phone-volume"></i>
+                    <span>Call Now</span>
+                </a>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="search-header-section">
+    <div class="container">
+        <div class="search-container">
+            <h1 class="search-title">What are you looking for?</h1>
+
+            <form action="search.html" method="get" id="main-search-form">
+                <div class="search-input-wrapper">
+                    <input type="text" id="search-input" name="q" placeholder="Search for nets, grills, or grass..." autocomplete="off">
+                    <button type="submit" class="search-btn-icon" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+
+            <div class="category-chips-wrapper" id="category-chips">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="search-results-section">
+    <div class="container">
+
+        <div class="results-info">
+            <span id="results-count">Loading...</span>
+            <span id="query-display"></span>
+        </div>
+
+        <div class="search-grid" id="results-grid">
+        </div>
+
+        <div id="no-results" class="no-results-state" style="display: none;">
+            <i class="far fa-frown-open"></i>
+            <h3>No products found</h3>
+            <p>Try checking your spelling or use general terms like "net" or "grill".</p>
+            <a href="index.html" class="btn btn-primary mt-4" style="margin-top: 1rem;">Go Back Home</a>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Vijaya Srinivasa Enterprises</h3>
+                <p>Professional installers of Safety Nets and Invisible Grills. Serving Andhra Pradesh and surrounding areas.</p>
+                <div class="social-links">
+                    <a href="https://wa.me/917995717177" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="tel:7995717177"><i class="fas fa-phone"></i></a>
+                    <a href="mailto:contact@vijayasrinivasaenterprises.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="search.html">Our Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="safety-net.html">Balcony Safety Net</a></li>
+                    <li><a href="anti-bird-net.html">Pigeon Net</a></li>
+                    <li><a href="invisible-grill.html">Invisible Grill</a></li>
+                    <li><a href="sports-net.html">Cricket Net</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="contact-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Andhra Pradesh</li>
+                    <li><i class="fas fa-phone"></i> +91 7995717177</li>
+                    <li><i class="fas fa-envelope"></i> contact@vijayasrinivasaenterprises.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="copyright-year"></span> Vijaya Srinivasa Enterprises. All Rights Reserved.</p>
+            <p>Designed with ❤️ by <a href="https://phani-link-tree.netlify.app/" target="_blank">Phani Chaitanya</a></p>
+        </div>
+    </div>
+</footer>
+
+<a href="tel:7995717177" class="call-float" aria-label="Call Now"><i class="fas fa-phone"></i></a>
+<a href="https://wa.me/917995717177?text=Hello" class="whatsapp-float" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<button class="back-to-top" id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+<script src="js/script.js"></script>
+
+<script>
+    let allProducts = [];
+    let categories = [];
+
+    // 1. Fetch Data
+    async function loadData() {
+        try {
+            const response = await fetch('products.json');
+            const data = await response.json();
+            allProducts = data.products;
+            categories = data.categories;
+
+            initSearch();
+            renderChips();
+        } catch (error) {
+            console.error("Error loading products:", error);
+            document.getElementById('results-grid').innerHTML = '<p style="text-align:center">Error loading products. Please try again.</p>';
+        }
+    }
+
+    // 2. Initialize Search based on URL param
+    function initSearch() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q') || '';
+
+        document.getElementById('search-input').value = query;
+        performSearch(query);
+    }
+
+    // 3. Render Category Chips
+    function renderChips() {
+        const chipsContainer = document.getElementById('category-chips');
+        const urlParams = new URLSearchParams(window.location.search);
+        const currentQuery = urlParams.get('q') || '';
+
+        let html = `<a href="search.html" class="chip ${currentQuery === '' ? 'active' : ''}"><i class="fas fa-th-large"></i> All</a>`;
+
+        categories.forEach(cat => {
+            const isActive = currentQuery.toLowerCase() === cat.name.toLowerCase();
+            html += `<a href="search.html?q=${encodeURIComponent(cat.name)}" class="chip ${isActive ? 'active' : ''}">
+                <i class="${cat.icon}"></i> ${cat.name}
+                </a>`;
+        });
+
+        chipsContainer.innerHTML = html;
+    }
+
+    // 4. Perform Search & Render
+    function performSearch(query) {
+        const grid = document.getElementById('results-grid');
+        const noResults = document.getElementById('no-results');
+        const countLabel = document.getElementById('results-count');
+        const queryDisplay = document.getElementById('query-display');
+
+        const cleanQuery = query.toLowerCase().trim();
+
+        // Filter logic
+        const results = allProducts.filter(p => {
+            if (!cleanQuery) return true; // Show all if empty
+
+            // Search in name, category, or keywords
+            const matchName = p.name.toLowerCase().includes(cleanQuery);
+            const matchCat = p.category.toLowerCase().includes(cleanQuery);
+            const matchKeyword = p.keywords ? p.keywords.some(k => k.toLowerCase().includes(cleanQuery)) : false;
+
+            return matchName || matchCat || matchKeyword;
+        });
+
+        // Update UI
+        if (cleanQuery) {
+            queryDisplay.textContent = `for "${query}"`;
+        } else {
+            queryDisplay.textContent = "All Products";
+        }
+
+        countLabel.textContent = `${results.length} Found`;
+
+        if (results.length === 0) {
+            grid.style.display = 'none';
+            noResults.style.display = 'block';
+        } else {
+            grid.style.display = 'grid';
+            noResults.style.display = 'none';
+            renderCards(results);
+        }
+    }
+
+    // 5. Render Product Cards (Hybrid Layout)
+    function renderCards(products) {
+        const grid = document.getElementById('results-grid');
+
+        grid.innerHTML = products.map(product => {
+            // Find category page URL logic
+            const catObj = categories.find(c => c.name === product.category);
+            const link = product.pageUrl || (catObj ? catObj.pageUrl : 'index.html');
+
+            return `
+            <article class="search-card">
+                <div class="sc-image">
+                    <img src="${product.images.main}" alt="${product.name}" loading="lazy">
+                    <span class="sc-badge">${product.category}</span>
+                </div>
+                <div class="sc-content">
+                    <h3 class="sc-title">${product.name}</h3>
+                    <p class="sc-desc">${product.shortDescription || product.description}</p>
+
+                    <div class="sc-footer">
+                        <div class="sc-price">${product.price}</div>
+                        <div class="sc-actions">
+                            <a href="${link}" class="btn-icon-small btn-view-sc" aria-label="View Details"><i class="fas fa-arrow-right"></i></a>
+                            <a href="https://wa.me/917995717177?text=Hi,%20I'm%20interested%20in%20${encodeURIComponent(product.name)}" target="_blank" class="btn-icon-small btn-whatsapp-sc" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            `;
+        }).join('');
+    }
+
+    // Initialize on load
+    document.addEventListener('DOMContentLoaded', loadData);
+</script>
+
+</body>
+</html>

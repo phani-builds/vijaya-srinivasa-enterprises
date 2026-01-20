@@ -1,0 +1,361 @@
+/* ===================================
+   Search Page Styles
+   =================================== */
+
+/* --- Search Header Section --- */
+.search-header-section {
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%); /* Dark header to contrast */
+    padding: 120px 0 40px;
+    color: var(--white);
+    position: relative;
+    /* Removed border-radius to eliminate white corners */
+    margin-bottom: 0; /* Remove white gap */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.search-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Modern Search Input */
+.search-input-wrapper {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+}
+
+.search-input-wrapper input {
+    width: 100%;
+    padding: 1.2rem 3.5rem 1.2rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.1rem;
+    background: var(--bg-light); /* Cream background */
+    color: var(--text-dark);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    outline: none;
+    transition: var(--transition);
+}
+
+.search-input-wrapper input:focus {
+    box-shadow: 0 8px 25px rgba(144, 53, 61, 0.3);
+    transform: translateY(-2px);
+}
+
+.search-btn-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.search-btn-icon:hover {
+    background: var(--primary-dark);
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* Category Chips (Horizontal Scroll) */
+.category-chips-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 1rem;
+}
+
+.category-chips-wrapper::-webkit-scrollbar {
+    height: 4px;
+}
+
+.category-chips-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.3);
+    border-radius: 4px;
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 30px;
+    color: rgba(255,255,255,0.9);
+    font-size: 0.9rem;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.chip:hover, .chip.active {
+    background: var(--white);
+    color: var(--primary-color);
+    border-color: var(--white);
+}
+
+.chip i {
+    font-size: 0.9rem;
+}
+
+/* --- Search Results Section --- */
+.search-results-section {
+    background: var(--bg-light); /* Cream background */
+    padding: 2rem 0 4rem;
+    min-height: 60vh;
+    width: 100%; /* Full width coverage */
+    margin: 0;
+}
+
+/* --- Results Stats --- */
+.results-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+/* --- Search Results Grid (Responsive) --- */
+.search-grid {
+    display: grid;
+    /* Default Desktop: 3 Columns */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+/* --- Product Card (Hybrid Design) --- */
+.search-card {
+    background: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+    border: 1px solid #f3f4f6;
+    display: flex;
+    flex-direction: column; /* Vertical by default on desktop */
+}
+
+.search-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(144, 53, 61, 0.3);
+}
+
+/* Image Area */
+.sc-image {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Fixed height for desktop */
+    overflow: hidden;
+}
+
+.sc-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.search-card:hover .sc-image img {
+    transform: scale(1.05);
+}
+
+.sc-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    backdrop-filter: blur(4px);
+    text-transform: uppercase;
+}
+
+/* Content Area */
+.sc-content {
+    padding: 1.25rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sc-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+
+    /* Truncate text after 2 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.sc-desc {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+
+    /* Truncate text after 2 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.sc-footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    border-top: 1px solid #f3f4f6;
+}
+
+.sc-price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.sc-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-icon-small {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    border: none;
+    text-decoration: none;
+}
+
+.btn-whatsapp-sc {
+    background: #fef3f4;
+    color: #90353D;
+}
+
+.btn-view-sc {
+    background: #eff6ff;
+    color: #3b82f6;
+}
+
+.btn-whatsapp-sc:hover { background: #90353D; color: white; }
+.btn-view-sc:hover { background: #3b82f6; color: white; }
+
+/* --- Mobile Specific Optimization (The "Minimal Height" Logic) --- */
+@media (max-width: 768px) {
+    .search-header-section {
+        padding: 100px 0 30px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .search-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .search-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 1rem;
+    }
+
+    /* Transform Card to Horizontal Row on Mobile */
+    .search-card {
+        flex-direction: row; /* Horizontal Layout */
+        height: 110px; /* Minimal Fixed Height */
+        align-items: center;
+    }
+
+    .sc-image {
+        width: 110px; /* Square image on left */
+        height: 100%;
+        flex-shrink: 0;
+    }
+
+    .sc-content {
+        padding: 0.75rem;
+        justify-content: center;
+        width: calc(100% - 110px);
+    }
+
+    .sc-title {
+        font-size: 0.95rem;
+        margin-bottom: 0.25rem;
+        -webkit-line-clamp: 1; /* One line only on mobile */
+    }
+
+    .sc-desc {
+        display: none; /* Hide description on mobile to save space */
+    }
+
+    .sc-badge {
+        font-size: 0.6rem;
+        padding: 2px 6px;
+        left: 5px;
+        top: 5px;
+    }
+
+    .sc-footer {
+        border-top: none; /* Remove border */
+        padding-top: 0;
+        margin-top: 0.25rem;
+    }
+
+    .sc-price {
+        font-size: 0.9rem;
+    }
+
+    .btn-icon-small {
+        width: 28px;
+        height: 28px;
+        font-size: 0.8rem;
+    }
+}
+
+/* --- No Results State --- */
+.no-results-state {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: var(--text-light);
+    background: var(--bg-light); /* Cream background */
+}
+
+.no-results-state i {
+    font-size: 3rem;
+    color: #e5e7eb;
+    margin-bottom: 1rem;
+}

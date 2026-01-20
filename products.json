@@ -1,0 +1,1009 @@
+{
+  "meta": {
+    "companyName": "Vijaya Srinivasa Enterprises",
+    "location": "Andhra Pradesh",
+    "contact": "+91 7995717177",
+    "generatedAt": "2026-01-19"
+  },
+  "categories": [
+    {
+      "id": "safety-net",
+      "name": "Safety Net",
+      "description": "Premium quality HDPE and Nylon safety nets for construction, balconies, and agricultural applications.",
+      "pageUrl": "safety-net.html",
+      "icon": "fas fa-shield-alt"
+    },
+    {
+      "id": "anti-bird-net",
+      "name": "Anti Bird Net",
+      "description": "Effective bird protection solutions including nets and spikes for residential and commercial properties.",
+      "pageUrl": "anti-bird-net.html",
+      "icon": "fas fa-feather-alt"
+    },
+    {
+      "id": "invisible-grill",
+      "name": "Invisible Grill",
+      "description": "Modern stainless steel invisible grills for balconies and windows offering unobstructed views.",
+      "pageUrl": "invisible-grill.html",
+      "icon": "fas fa-border-all"
+    },
+    {
+      "id": "sports-net",
+      "name": "Sports Net",
+      "description": "Professional quality HDPE sports nets for cricket practice, golf, and training facilities.",
+      "pageUrl": "sports-net.html",
+      "icon": "fas fa-futbol"
+    },
+    {
+      "id": "wire-mesh",
+      "name": "Wire Mesh",
+      "description": "Industrial and agricultural wire mesh solutions including GI welded mesh, chain link, and barbed wire.",
+      "pageUrl": "wire-mesh.html",
+      "icon": "fas fa-th"
+    },
+    {
+      "id": "artificial-grass",
+      "name": "Artificial Grass Mat",
+      "description": "Premium quality artificial grass for landscaping, sports fields, and decorative purposes.",
+      "pageUrl": "artificial-grass-mat.html",
+      "icon": "fas fa-leaf"
+    }
+  ],
+  "products": [
+    {
+      "id": "sn-001",
+      "name": "Coconut Tree Safety Net",
+      "slug": "coconut-tree-safety-net",
+      "category": "Safety Net",
+      "description": "Durable HDPE coconut tree safety net to catch falling coconuts, fronds, or debris. Weather-resistant material designed to withstand outdoor conditions and protect people below.",
+      "shortDescription": "HDPE net to catch falling coconuts and debris.",
+      "price": "₹12 / sq ft",
+      "priceNumeric": 12,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "HDPE",
+        "thickness": "2mm - 2.5mm",
+        "color": "Green",
+        "size": "5m x 10m"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767083557/coconut-tree-safety-nets_rhjn8c.jpg"
+      },
+      "keywords": ["coconut net", "tree safety", "falling coconut protection", "HDPE net"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-002",
+      "name": "Building Construction Safety Net",
+      "slug": "building-construction-safety-net",
+      "category": "Safety Net",
+      "description": "Light braided nylon safety net for building construction sites. Provides fall protection for workers and prevents debris from falling. Square hole shape with excellent strength.",
+      "shortDescription": "Light braided nylon safety net for construction sites.",
+      "price": "₹15 / sq ft",
+      "priceNumeric": 15,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon",
+        "meshType": "Light Braided",
+        "holeShape": "Square",
+        "warranty": "5 Years"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767083809/construction_safety_nets_ppuadw.jpg"
+      },
+      "keywords": ["construction net", "debris net", "worker safety", "nylon net"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-003",
+      "name": "Balcony Safety Net",
+      "slug": "balcony-safety-net",
+      "category": "Safety Net",
+      "description": "High-quality nylon safety net for balconies and windows. Protects children and pets from falls while maintaining aesthetic appeal.",
+      "shortDescription": "Child and pet safety net for balconies.",
+      "price": "₹10 / sq ft",
+      "priceNumeric": 10,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon/HDPE",
+        "meshSize": "2mm",
+        "application": "Window, Balcony",
+        "color": "White/Green"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767083686/balcony_safety_net_sbvzcy.jpg"
+      },
+      "keywords": ["balcony net", "child safety", "pet safety", "window net"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-004",
+      "name": "Poultry Farm Safety Net",
+      "slug": "poultry-farm-safety-net",
+      "category": "Safety Net",
+      "description": "Specialized HDPE mesh netting for poultry farms. Protects chickens from predators while ensuring ventilation. UV stabilized and dust proof for outdoor use.",
+      "shortDescription": "HDPE mesh netting for poultry farm enclosures.",
+      "price": "₹8 / sq ft",
+      "priceNumeric": 8,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "HDPE",
+        "size": "4x6 Feet / Customized",
+        "features": "UV Stabilized, Dust Proof"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096057/poultry_safety_net_sre4it.jpg"
+      },
+      "keywords": ["poultry net", "farm net", "chicken coop", "HDPE mesh"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-005",
+      "name": "HDPE Green Safety Net",
+      "slug": "hdpe-green-safety-net",
+      "category": "Safety Net",
+      "description": "Premium quality HDPE safety net with 25mm thickness. Garware brand with excellent durability. Waterproof and suitable for outdoor applications with 14 years shelf life.",
+      "shortDescription": "Heavy duty 25mm HDPE safety net.",
+      "price": "₹18 / sq ft",
+      "priceNumeric": 18,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "HDPE",
+        "thickness": "25mm",
+        "brand": "Garware",
+        "capacity": "1 Ton per 100 sqft"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767083910/hdpe_safety_nets_pzeolu.jpg"
+      },
+      "keywords": ["heavy duty net", "garware net", "industrial safety", "green net"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-006",
+      "name": "White Nylon Safety Net",
+      "slug": "white-nylon-safety-net",
+      "category": "Safety Net",
+      "description": "Light braided white nylon safety net for buildings, apartments, and schools. Pan India installation service available with 5 years warranty.",
+      "shortDescription": "Aesthetic white nylon safety net.",
+      "price": "₹12 / sq ft",
+      "priceNumeric": 12,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon",
+        "size": "5m x 10m",
+        "packaging": "Roll",
+        "meshSize": "2mm"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096222/white_nylon_safety_net_zcmmay.jpg"
+      },
+      "keywords": ["white net", "apartment safety", "school net", "nylon braid"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-007",
+      "name": "Monkey/Bird Protection Net",
+      "slug": "monkey-bird-protection-net",
+      "category": "Safety Net",
+      "description": "Polycarbonate protection net designed to keep monkeys and birds away. Ideal for buildings and residential areas. Durable and weather-resistant construction.",
+      "shortDescription": "Protection net against monkeys and birds.",
+      "price": "₹25 / Piece",
+      "priceNumeric": 25,
+      "priceUnit": "Piece",
+      "specifications": {
+        "material": "Polycarbonate",
+        "application": "Buildings",
+        "color": "White",
+        "moq": "100 Pieces"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096305/monkey_sn_zs4gf7.jpg"
+      },
+      "keywords": ["monkey net", "anti monkey", "polycarbonate net", "building protection"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-008",
+      "name": "Construction Nylon Safety Net",
+      "slug": "construction-nylon-safety-net",
+      "category": "Safety Net",
+      "description": "Heavy-duty nylon safety net specifically designed for construction sites. Light braided mesh with 2mm dimension. Green color with excellent tensile strength.",
+      "shortDescription": "Heavy-duty nylon net for construction sites.",
+      "price": "₹14 / sq ft",
+      "priceNumeric": 14,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon",
+        "meshType": "Light Braided",
+        "color": "Green"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767083809/construction_safety_nets_ppuadw.jpg"
+      },
+      "keywords": ["heavy duty construction", "site safety", "tensile strength"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-009",
+      "name": "Shade Safety Net",
+      "slug": "shade-safety-net",
+      "category": "Safety Net",
+      "description": "Nylon shade safety net with 50% shade rate. Perfect for outdoor areas requiring sun protection. Available in green color with 2mm hole shape.",
+      "shortDescription": "Safety net with 50% sun shade protection.",
+      "price": "₹11 / sq ft",
+      "priceNumeric": 11,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "shadeRate": "50%",
+        "size": "5m x 10m",
+        "color": "Green"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096411/shade_safety_net_nzp2ej.webp"
+      },
+      "keywords": ["shade net", "sun protection", "green shade", "garden net"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-010",
+      "name": "Polished Nylon Safety Net",
+      "slug": "polished-nylon-safety-net",
+      "category": "Safety Net",
+      "description": "Premium polished finish nylon safety net in roll packaging. 2mm thickness with green color. Ideal for safety applications requiring aesthetic appeal.",
+      "shortDescription": "Polished finish nylon net.",
+      "price": "₹13 / sq ft",
+      "priceNumeric": 13,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "thickness": "2mm",
+        "finishing": "Polished",
+        "packaging": "Roll",
+        "size": "5m x 10m"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096486/polished_nylon_sn_emi3l8.jpg"
+      },
+      "keywords": ["polished net", "premium nylon", "aesthetic safety net"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "abn-001",
+      "name": "Anti Bird Spike",
+      "slug": "anti-bird-spike",
+      "category": "Anti Bird Net",
+      "description": "Safety spikes ideal for both residential and commercial use. Made from high-quality polycarbonate material. Prevents birds from perching on buildings.",
+      "shortDescription": "Polycarbonate spikes to prevent bird perching.",
+      "price": "₹20 / Piece",
+      "priceNumeric": 20,
+      "priceUnit": "Piece",
+      "specifications": {
+        "material": "Polycarbonate",
+        "application": "Residential/Commercial"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767170840/anti_bird_spike_kqpydy.webp"
+      },
+      "keywords": ["bird spikes", "pigeon spikes", "polycarbonate spikes"],
+      "pageUrl": "anti-bird-net.html"
+    },
+    {
+      "id": "abn-003",
+      "name": "Anti Bird Safety Nets",
+      "slug": "anti-bird-safety-nets",
+      "category": "Anti Bird Net",
+      "description": "High-quality HDPE safety nets for building protection. UV stabilized and dust proof. 5 years warranty. Available in green, white, and black colors.",
+      "shortDescription": "HDPE bird nets with 5 year warranty.",
+      "price": "₹8 / sq ft",
+      "priceNumeric": 8,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "HDPE",
+        "warranty": "5 Years",
+        "features": "UV Stabilized, Dust Proof",
+        "colors": "Green, White, Black"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767089555/anti_bird_nets_u0gl2c.webp"
+      },
+      "keywords": ["bird net", "hdpe net", "building protection", "uv stabilized"],
+      "pageUrl": "anti-bird-net.html"
+    },
+    {
+      "id": "abn-005",
+      "name": "Bird Protection Netting",
+      "slug": "bird-protection-netting",
+      "category": "Anti Bird Net",
+      "description": "Durable HDPE bird protection nets. 2.5mm thickness, rectangular shape with polished finishing. Available in roll packaging. Made in India.",
+      "shortDescription": "2.5mm HDPE bird protection nets.",
+      "price": "₹8 / sq ft",
+      "priceNumeric": 8,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "HDPE",
+        "thickness": "2.5mm",
+        "shape": "Rectangular",
+        "finishing": "Polished"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767088155/anti_bird_safety_net_tzovrv.jpg"
+      },
+      "keywords": ["bird protection", "polished net", "roll netting"],
+      "pageUrl": "anti-bird-net.html"
+    },
+    {
+      "id": "abn-006",
+      "name": "Bird Protection Nylon Net",
+      "slug": "bird-protection-nylon-net",
+      "category": "Anti Bird Net",
+      "description": "UV stabilized nylon bird protection net. Lightweight yet durable construction prevents bird intrusion while maintaining airflow. Ideal for balconies, terraces, and open spaces.",
+      "shortDescription": "UV stabilized nylon bird protection net.",
+      "price": "₹6 / sq ft",
+      "priceNumeric": 6,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon",
+        "features": "UV Stabilized",
+        "application": "Balcony/Terrace"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767196286/nylon_bird_xxpn73.webp"
+      },
+      "keywords": ["nylon bird net", "UV stabilized", "budget bird net", "lightweight"],
+      "pageUrl": "anti-bird-net.html"
+    },
+    {
+      "id": "abn-007",
+      "name": "Poultry Fencing Nets",
+      "slug": "poultry-fencing-nets",
+      "category": "Anti Bird Net",
+      "description": "High-quality HDPE nets for poultry farms. 1M x 25M size. Ideal for garden fencing, boundary fencing, and security applications. Weather-resistant.",
+      "shortDescription": "HDPE fencing nets for poultry and gardens.",
+      "price": "₹5 / sq ft",
+      "priceNumeric": 5,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "HDPE",
+        "size": "1M x 25M",
+        "application": "Garden/Boundary Fencing"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767097839/poultry_absn_xl7wiz.jpg"
+      },
+      "keywords": ["fencing net", "garden fence", "poultry boundary"],
+      "pageUrl": "anti-bird-net.html"
+    },
+    {
+      "id": "ig-001",
+      "name": "Invisible Grill For Balcony",
+      "slug": "invisible-grill-balconies-windows",
+      "category": "Invisible Grill",
+      "description": "Made from high-strength stainless steel, provides nearly invisible barrier ensuring safety without obstructing views. Ideal for modern homes with sleek design.",
+      "shortDescription": "High-strength invisible barrier for modern homes.",
+      "price": "₹129 / sq ft",
+      "priceNumeric": 129,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Stainless Steel (2.5mm)",
+        "surface": "Nylon Coated",
+        "features": "Rust Proof, Easy Maintenance"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767171026/invisible_grill_p0cg5u.jpg"
+      },
+      "keywords": ["invisible grill", "balcony view", "modern safety"],
+      "pageUrl": "invisible-grill.html"
+    },
+    {
+      "id": "ig-002",
+      "name": "Stainless Steel Invisible Balcony Grill",
+      "slug": "stainless-steel-invisible-balcony-grill",
+      "category": "Invisible Grill",
+      "description": "A Grade stainless steel balcony grill with rust-resistant properties. Durable construction with minimalist aesthetic, perfect for modern apartments.",
+      "shortDescription": "A Grade stainless steel rust-resistant grill.",
+      "price": "₹135 / sq ft",
+      "priceNumeric": 135,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "grade": "A Grade SS",
+        "position": "Exterior",
+        "installation": "Available"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767093700/ss_invisible_grill_dhblm5.webp"
+      },
+      "keywords": ["SS grill", "apartment grill", "rust resistant"],
+      "pageUrl": "invisible-grill.html"
+    },
+    {
+      "id": "ig-003",
+      "name": "2.5mm Invisible Balcony Grill",
+      "slug": "2.5mm-invisible-balcony-grill",
+      "category": "Invisible Grill",
+      "description": "Premium 2.5mm thickness invisible grill with laser cut technique. Floor mount type with simple grill design for interior positions.",
+      "shortDescription": "Laser cut 2.5mm invisible grill.",
+      "price": "₹129 / sq ft",
+      "priceNumeric": 129,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "size": "2.5mm",
+        "technique": "Laser Cut",
+        "mount": "Floor/Wall"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767171026/invisible_grill_p0cg5u.jpg"
+      },
+      "keywords": ["laser cut grill", "floor mount grill", "2.5mm grill"],
+      "pageUrl": "invisible-grill.html"
+    },
+    {
+      "id": "ig-004",
+      "name": "Invisible Window Grills",
+      "slug": "invisible-window-grills",
+      "category": "Invisible Grill",
+      "description": "CNC cut window grills with powder coated finish. Antique design with rectangular shape. Rust proof and includes installation service.",
+      "shortDescription": "Antique design CNC cut window grills.",
+      "price": "₹125 / sq ft",
+      "priceNumeric": 125,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "design": "Antique",
+        "finish": "Powder Coated",
+        "shape": "Rectangular"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767093699/window_grills_nspi3p.webp"
+      },
+      "keywords": ["window grill", "powder coated", "antique design", "CNC cut"],
+      "pageUrl": "invisible-grill.html"
+    },
+    {
+      "id": "ig-005",
+      "name": "2mm Invisible Grill for Home",
+      "slug": "2mm-invisible-grill-home",
+      "category": "Invisible Grill",
+      "description": "CNC cut balcony grill with simple design and wall mount. Perfect for home applications with nylon coated white finish.",
+      "shortDescription": "Simple white 2mm invisible grill.",
+      "price": "₹120 / sq ft",
+      "priceNumeric": 120,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "wireDiameter": "2mm",
+        "color": "White",
+        "coating": "Nylon Coated"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767098341/2mm_ig_y0yq1c.jpg"
+      },
+      "keywords": ["white grill", "home grill", "simple grill"],
+      "pageUrl": "invisible-grill.html"
+    },
+    {
+      "id": "ig-006",
+      "name": "SS 304 Invisible Balcony Grill",
+      "slug": "ss-304-invisible-balcony-grill",
+      "category": "Invisible Grill",
+      "description": "Premium SS 304 grade stainless steel with laser cut technique. Simple design in silver color for apartment applications.",
+      "shortDescription": "SS 304 grade silver invisible grill.",
+      "price": "₹140 / sq ft",
+      "priceNumeric": 140,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "grade": "SS 304",
+        "technique": "Laser Cut",
+        "color": "Silver"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767098415/ss304_ig_tijgtr.jpg"
+      },
+      "keywords": ["SS 304", "premium grill", "silver grill"],
+      "pageUrl": "invisible-grill.html"
+    },
+    {
+      "id": "spn-001",
+      "name": "Cricket Net",
+      "slug": "2.5mm-cricket-practice-net-medium",
+      "category": "Sports Net",
+      "description": "Premium quality Garware cricket practice net with 2.5mm thickness. Perfect for training grounds and cricket clubs. Durable mesh construction.",
+      "shortDescription": "Garware 2.5mm cricket practice net.",
+      "price": "₹22 / sq ft",
+      "priceNumeric": 22,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Garware HDPE",
+        "thickness": "2.5mm",
+        "size": "Medium",
+        "color": "Green"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767170509/turf_qbstxw.jpg"
+      },
+      "keywords": ["cricket net", "garware", "practice net", "medium net"],
+      "pageUrl": "sports-net.html"
+    },
+    {
+      "id": "spn-008",
+      "name": "Outdoor Cricket Training Net",
+      "slug": "outdoor-cricket-training-net-25mm",
+      "category": "Sports Net",
+      "description": "Outdoor-specific Garware cricket net designed for all-weather training. 25mm thickness with 5m x 10m dimensions.",
+      "shortDescription": "All-weather outdoor training net.",
+      "price": "₹25 / sq ft",
+      "priceNumeric": 25,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "brand": "Garware",
+        "thickness": "25mm",
+        "usage": "Outdoor"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767092729/cricket_sports_net_fe9bbc.png"
+      },
+      "keywords": ["outdoor net", "all-weather", "training net"],
+      "pageUrl": "sports-net.html"
+    },
+    {
+      "id": "spn-010",
+      "name": "Football Goal Net",
+      "slug": "football-goal-net",
+      "category": "Sports Net",
+      "description": "Heavy-duty knotted nylon net for football goals. Weather-resistant, available in standard and custom sizes for turf grounds.",
+      "shortDescription": "Heavy-duty knotted nylon football goal net.",
+      "price": "₹20 / sq ft",
+      "priceNumeric": 20,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon",
+        "type": "Knotted",
+        "features": "Weather-resistant"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767092717/football_nets_olow58.png"
+      },
+      "keywords": ["football net", "goal net", "turf net", "knotted nylon"],
+      "pageUrl": "sports-net.html"
+    },
+    {
+      "id": "spn-011",
+      "name": "Golf Practice Net",
+      "slug": "golf-practice-net",
+      "category": "Sports Net",
+      "description": "High-impact nylon net designed for golf ball practice. Compact setup for home or club use. Easy installation.",
+      "shortDescription": "High-impact golf ball practice net.",
+      "price": "₹25 / sq ft",
+      "priceNumeric": 25,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon",
+        "type": "High Impact",
+        "application": "Home/Club"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767099250/golf_sports_net_yxmkng.jpg"
+      },
+      "keywords": ["golf net", "practice net", "high impact", "compact"],
+      "pageUrl": "sports-net.html"
+    },
+    {
+      "id": "spn-012",
+      "name": "Badminton Court Net",
+      "slug": "badminton-court-net",
+      "category": "Sports Net",
+      "description": "Professional grade nylon net with proper height specifications. Perfect for indoor and outdoor badminton courts.",
+      "shortDescription": "Professional badminton court nylon net.",
+      "price": "₹15 / sq ft",
+      "priceNumeric": 15,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon",
+        "grade": "Professional",
+        "application": "Indoor/Outdoor"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767099307/badminton_sports_net_zlnf35.jpg"
+      },
+      "keywords": ["badminton net", "court net", "professional grade"],
+      "pageUrl": "sports-net.html"
+    },
+    {
+      "id": "wm-001",
+      "name": "Poultry Farm Wire Mesh",
+      "slug": "poultry-farm-wire-mesh",
+      "category": "Wire Mesh",
+      "description": "Specialized GI welded mesh for poultry enclosures. Protects livestock from predators while ensuring ventilation.",
+      "shortDescription": "GI welded mesh for poultry enclosures.",
+      "price": "₹45 / sq ft",
+      "priceNumeric": 45,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "GI Welded",
+        "application": "Poultry Farm",
+        "features": "Ventilated"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767094096/poultry_mesh_c2qtfr.jpg"
+      },
+      "keywords": ["poultry mesh", "farm mesh", "GI welded", "livestock protection"],
+      "pageUrl": "wire-mesh.html"
+    },
+    {
+      "id": "wm-002",
+      "name": "GI Welded Wire Mesh",
+      "slug": "gi-welded-wire-mesh",
+      "category": "Wire Mesh",
+      "description": "Robust galvanized iron mesh for construction and industrial fencing. High tensile strength with spot welding.",
+      "shortDescription": "Robust GI mesh with high tensile strength.",
+      "price": "₹50 / sq ft",
+      "priceNumeric": 50,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Galvanized Iron",
+        "type": "Welded",
+        "features": "High Tensile"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767094090/gi_wire_mesh_lztmqr.jpg"
+      },
+      "keywords": ["GI mesh", "welded mesh", "industrial fencing", "galvanized"],
+      "pageUrl": "wire-mesh.html"
+    },
+    {
+      "id": "wm-003",
+      "name": "Chain Link Fence",
+      "slug": "chain-link-fence",
+      "category": "Wire Mesh",
+      "description": "Classic diamond-pattern fencing for boundaries, playgrounds, and securing large perimeters. PVC coated options available.",
+      "shortDescription": "Diamond-pattern chain link fencing.",
+      "price": "₹55 / sq ft",
+      "priceNumeric": 55,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "pattern": "Diamond",
+        "coating": "PVC Available",
+        "application": "Boundaries/Playgrounds"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767094093/chain_link_fence_xrro7l.webp"
+      },
+      "keywords": ["chain link", "diamond fence", "PVC coated", "boundary fence"],
+      "pageUrl": "wire-mesh.html"
+    },
+    {
+      "id": "wm-004",
+      "name": "Industrial Wire Mesh",
+      "slug": "industrial-wire-mesh",
+      "category": "Wire Mesh",
+      "description": "Precision-woven mesh for filtration, screening, and machinery protection in manufacturing units.",
+      "shortDescription": "Precision-woven industrial mesh.",
+      "price": "₹48 / sq ft",
+      "priceNumeric": 48,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "type": "Precision Woven",
+        "application": "Industrial/Manufacturing",
+        "features": "Filtration/Screening"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767103498/industrial_wm_lt4bxi.jpg"
+      },
+      "keywords": ["industrial mesh", "filtration", "manufacturing", "precision woven"],
+      "pageUrl": "wire-mesh.html"
+    },
+    {
+      "id": "wm-005",
+      "name": "Hexagonal Wire Mesh",
+      "slug": "hexagonal-wire-mesh",
+      "category": "Wire Mesh",
+      "description": "Also known as Chicken Wire. Flexible and easy to shape. Ideal for garden fencing and small animal cages.",
+      "shortDescription": "Flexible hexagonal chicken wire mesh.",
+      "price": "₹40 / sq ft",
+      "priceNumeric": 40,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "pattern": "Hexagonal",
+        "features": "Flexible",
+        "application": "Garden/Animal Cages"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767094091/hexagonal_wire_mesh_dsg4vl.webp"
+      },
+      "keywords": ["chicken wire", "hexagonal mesh", "garden fence", "flexible mesh"],
+      "pageUrl": "wire-mesh.html"
+    },
+    {
+      "id": "wm-006",
+      "name": "Woven Wire Mesh",
+      "slug": "woven-wire-mesh",
+      "category": "Wire Mesh",
+      "description": "Fine stainless steel or MS woven mesh. Excellent for filtration and sieving applications.",
+      "shortDescription": "Fine woven mesh for filtration.",
+      "price": "₹42 / sq ft",
+      "priceNumeric": 42,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "SS/MS",
+        "type": "Woven",
+        "application": "Filtration/Sieving"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767103725/woven_wm_dixaoc.jpg"
+      },
+      "keywords": ["woven mesh", "stainless steel mesh", "sieving", "fine mesh"],
+      "pageUrl": "wire-mesh.html"
+    },
+    {
+      "id": "wm-007",
+      "name": "Barbed Wire",
+      "slug": "barbed-wire",
+      "category": "Wire Mesh",
+      "description": "Traditional security fencing wire with sharp barbs. Effective deterrent for perimeter boundaries.",
+      "shortDescription": "Security barbed wire fencing.",
+      "price": "₹65 / kg",
+      "priceNumeric": 65,
+      "priceUnit": "kg",
+      "specifications": {
+        "type": "Barbed",
+        "application": "Security/Perimeter",
+        "features": "Sharp Barbs"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767103656/barbed_wm_msjztq.jpg"
+      },
+      "keywords": ["barbed wire", "security fence", "perimeter wire"],
+      "pageUrl": "wire-mesh.html"
+    },
+    {
+      "id": "ag-001",
+      "name": "Green Artificial Grass Mat",
+      "slug": "green-artificial-grass-mat",
+      "category": "Artificial Grass Mat",
+      "description": "Premium PE material with 25mm thickness. Mimics natural grass perfectly. Water-resistant backing for balconies and terraces.",
+      "shortDescription": "Premium 25mm PE artificial grass mat.",
+      "price": "₹55 / sq ft",
+      "priceNumeric": 55,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "PE",
+        "thickness": "25mm",
+        "features": "Water-resistant backing"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767094403/green_mat_xiq4hr.webp"
+      },
+      "keywords": ["artificial grass", "balcony grass", "PE grass", "green mat"],
+      "pageUrl": "artificial-grass-mat.html"
+    },
+    {
+      "id": "ag-002",
+      "name": "Artificial Grass for Sports",
+      "slug": "artificial-grass-sports",
+      "category": "Artificial Grass Mat",
+      "description": "High-density turf designed for cricket pitches, football turf, and golf putting. Extremely durable against heavy foot traffic.",
+      "shortDescription": "High-density sports turf.",
+      "price": "₹60 / sq ft",
+      "priceNumeric": 60,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "density": "High",
+        "application": "Cricket/Football/Golf",
+        "features": "Heavy Duty"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767094387/sports_grass_xkao5q.jpg"
+      },
+      "keywords": ["sports grass", "cricket pitch", "football turf", "high density"],
+      "pageUrl": "artificial-grass-mat.html"
+    },
+    {
+      "id": "ag-003",
+      "name": "Landscaping Artificial Grass",
+      "slug": "landscaping-artificial-grass",
+      "category": "Artificial Grass Mat",
+      "description": "The most realistic look for gardens. Multi-tone green blades with brown thatch for a natural appearance. Soft feel.",
+      "shortDescription": "Realistic multi-tone landscaping grass.",
+      "price": "₹65 / sq ft",
+      "priceNumeric": 65,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "appearance": "Multi-tone",
+        "texture": "Soft",
+        "features": "Natural look with thatch"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767094392/artificial_grass_xo8nde.jpg"
+      },
+      "keywords": ["landscaping grass", "garden grass", "realistic grass", "soft grass"],
+      "pageUrl": "artificial-grass-mat.html"
+    },
+    {
+      "id": "ag-004",
+      "name": "Indoor Artificial Grass",
+      "slug": "indoor-artificial-grass",
+      "category": "Artificial Grass Mat",
+      "description": "Soft texture grass perfect for home interiors, wall decor, and office spaces. Easy to vacuum and maintain.",
+      "shortDescription": "Soft indoor artificial grass.",
+      "price": "₹50 / sq ft",
+      "priceNumeric": 50,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "application": "Indoor",
+        "texture": "Soft",
+        "features": "Easy to maintain"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767104126/indoor_grass_jsrmay.jpg"
+      },
+      "keywords": ["indoor grass", "interior grass", "office grass", "soft texture"],
+      "pageUrl": "artificial-grass-mat.html"
+    },
+    {
+      "id": "ag-005",
+      "name": "Playground Artificial Grass",
+      "slug": "playground-artificial-grass",
+      "category": "Artificial Grass Mat",
+      "description": "Safe, cushioned surface for kids' play areas. Shock-absorbent backing reduces injury risk. Non-toxic materials.",
+      "shortDescription": "Safe cushioned playground grass.",
+      "price": "₹58 / sq ft",
+      "priceNumeric": 58,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "application": "Playground",
+        "features": "Shock-absorbent, Non-toxic",
+        "safety": "Cushioned"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767094390/playground_grass_p1hcj9.jpg"
+      },
+      "keywords": ["playground grass", "kids grass", "safe grass", "cushioned"],
+      "pageUrl": "artificial-grass-mat.html"
+    },
+    {
+      "id": "ag-006",
+      "name": "Decorative Artificial Grass",
+      "slug": "decorative-artificial-grass",
+      "category": "Artificial Grass Mat",
+      "description": "Budget-friendly option for temporary setups, events, exhibitions, and wall cladding. Vibrant green color.",
+      "shortDescription": "Budget-friendly decorative grass.",
+      "price": "₹45 / sq ft",
+      "priceNumeric": 45,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "application": "Events/Exhibition",
+        "color": "Vibrant Green",
+        "type": "Budget-friendly"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767104225/decorative_grass_b1qtye.jpg"
+      },
+      "keywords": ["decorative grass", "event grass", "exhibition grass", "budget grass"],
+      "pageUrl": "artificial-grass-mat.html"
+    },
+    {
+      "id": "sn-011",
+      "name": "Anti Bird Safety Nylon Net",
+      "slug": "anti-bird-safety-nylon-net",
+      "category": "Safety Net",
+      "description": "Specialized nylon mesh to prevent bird intrusion. Protects balconies and windows from pigeons and sparrows.",
+      "shortDescription": "Nylon mesh for bird intrusion prevention.",
+      "price": "₹9 / sq ft",
+      "priceNumeric": 9,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon",
+        "application": "Balcony/Window",
+        "protection": "Pigeons/Sparrows"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096550/anti_bird_nylon_sn_friejq.jpg"
+      },
+      "keywords": ["bird prevention", "pigeon net", "window protection", "nylon mesh"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-012",
+      "name": "Building Cover Safety Nets",
+      "slug": "building-cover-safety-nets",
+      "category": "Safety Net",
+      "description": "Full building facade safety coverage for high-rise construction. Prevents falling debris and ensures worker protection.",
+      "shortDescription": "Full facade safety coverage for construction.",
+      "price": "₹16 / sq ft",
+      "priceNumeric": 16,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "application": "High-rise Construction",
+        "coverage": "Full Facade",
+        "features": "Debris Prevention"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096682/building_cover_sn_sk9az7.jpg"
+      },
+      "keywords": ["building cover", "construction safety", "facade net", "debris net"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-013",
+      "name": "Coconut Tree Flat Safety Nets",
+      "slug": "coconut-tree-flat-safety-nets",
+      "category": "Safety Net",
+      "description": "Flat installation design for coconut trees. Covers wide ground area to catch falling coconuts effectively.",
+      "shortDescription": "Flat design coconut tree safety net.",
+      "price": "₹11 / sq ft",
+      "priceNumeric": 11,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "design": "Flat Installation",
+        "application": "Coconut Trees",
+        "coverage": "Wide Ground Area"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096762/flat_coconut_sn_kvkl4c.webp"
+      },
+      "keywords": ["flat coconut net", "ground coverage", "coconut protection"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-014",
+      "name": "Green Shade Nets",
+      "slug": "green-shade-nets",
+      "category": "Safety Net",
+      "description": "Agricultural shade nets providing 50-90% shade coverage. Perfect for nurseries, greenhouses, and crop protection.",
+      "shortDescription": "Agricultural shade nets with 50-90% coverage.",
+      "price": "₹10 / sq ft",
+      "priceNumeric": 10,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "shadeRate": "50-90%",
+        "application": "Agriculture/Nursery",
+        "color": "Green"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096901/green_shade_net_mco9wd.jpg"
+      },
+      "keywords": ["shade net", "agricultural net", "nursery net", "greenhouse"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-015",
+      "name": "Stair Safety Net",
+      "slug": "stair-safety-net",
+      "category": "Safety Net",
+      "description": "Specialized nets for stairway protection. Prevents falls and provides additional safety barrier for children.",
+      "shortDescription": "Stairway protection safety net.",
+      "price": "₹11 / sq ft",
+      "priceNumeric": 11,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "application": "Stairway",
+        "protection": "Fall Prevention",
+        "features": "Child Safety"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767096996/staircase_net_g8jshk.jpg"
+      },
+      "keywords": ["stair net", "stairway safety", "fall prevention", "child protection"],
+      "pageUrl": "safety-net.html"
+    },
+    {
+      "id": "sn-016",
+      "name": "Duct Safety Net",
+      "slug": "duct-safety-net",
+      "category": "Safety Net",
+      "description": "Specialized nylon safety net designed for duct areas. 2.5mm thickness provides optimal protection while maintaining ventilation. Prevents debris accumulation and ensures clean airflow.",
+      "shortDescription": "2.5mm nylon net for duct protection.",
+      "price": "₹8 / sq ft",
+      "priceNumeric": 8,
+      "priceUnit": "sq ft",
+      "specifications": {
+        "material": "Nylon",
+        "thickness": "2.5mm",
+        "application": "Duct Areas",
+        "features": "Ventilation Friendly"
+      },
+      "images": {
+        "main": "https://res.cloudinary.com/phani-builds-1/image/upload/w_500,q_auto,f_auto/v1767193805/duct_net_wvoyrc.webp"
+      },
+      "keywords": ["duct net", "ventilation net", "AC duct", "nylon duct"],
+      "pageUrl": "safety-net.html"
+    }
+  ]
+}

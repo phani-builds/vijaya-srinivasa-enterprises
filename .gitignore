@@ -1,0 +1,25 @@
+# IDE Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+
+# Progress tracking
+progress.md
+
+# Deleted files folder
+deleted/
+
+# Local environment
+.env
+.env.local

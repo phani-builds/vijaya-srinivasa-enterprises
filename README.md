@@ -85,6 +85,8 @@ Since 2019 - 6 Years of Market Presence
 **Phani Chaitanya**  
 [Portfolio](https://phani-link-tree.netlify.app/)
 
+<!-- empty trigger -->
+
 ---
 
 **Note:** This is a production-ready static website with no build process required.

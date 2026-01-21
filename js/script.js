@@ -686,6 +686,6 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('✅ All scripts loaded successfully');
     console.log('📱 Contact: +91 7995717177');
-    console.log('📧 Email: contact@vijayasrinivasaenterprises.com');
+    console.log('📧 Email: vijayasrinivasa.business@gmail.com');
     console.log('🏢 Vijaya Srinivasa Enterprises');
 });

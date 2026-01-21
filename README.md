@@ -12,7 +12,7 @@ Official website for Vijaya Srinivasa Enterprises - Leading manufacturer and ins
 
 ## 📞 Contact
 - **Phone:** +91 7995717177
-- **Email:** contact@vijayasrinivasaenterprises.com
+- **Email:** vijayasrinivasa.business@gmail.com
 - **WhatsApp:** [Click to Chat](https://wa.me/917995717177)
 
 ## 🛠️ Tech Stack

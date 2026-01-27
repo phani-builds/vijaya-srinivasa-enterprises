@@ -8,7 +8,7 @@ Official website for Vijaya Srinivasa Enterprises - Leading manufacturer and ins
 ## 📍 Service Areas
 - Andhra Pradesh
 - Telangana
-- Major cities: Visakhapatnam, Vijayawada, Hyderabad, Rajahmundry, Guntur, Kakinada, and more
+- Major cities: Visakhapatnam, Vijayawada, Hyderabad, Rajahmundry, Guntur, Kakinada, and more.
 
 ## 📞 Contact
 - **Phone:** +91 7995717177
